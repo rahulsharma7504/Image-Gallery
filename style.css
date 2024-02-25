@@ -13,7 +13,7 @@ body {
     height: 210px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #af8d8d;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(7, 6, 6, 0.3);
     text-align: center;
@@ -60,7 +60,7 @@ body {
   
   #imageList {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 10px;
     padding: 10px;
   }
@@ -69,6 +69,6 @@ body {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #3aafb8;
   }
   
