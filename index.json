@@ -1,0 +1,29 @@
+[
+    { "name": "Dr. Emily Thompson", "image": "./Images/1.jpeg" },
+    { "name": "Dr. Sarah Johnson", "image": "./Images/2.jpeg" },
+    { "name": "Dr. John Brown", "image": "./Images/3.jpeg" },
+    { "name": "Dr. Olivia Brown", "image": "./Images/4.jpeg" },
+    { "name": "Dr. Emily Martin", "image": "./Images/5.jpeg" },
+    { "name": "Dr. Isabella Wilson", "image": "./Images/6.jpeg" },
+    { "name": "Dr. Sophia Lee", "image": "./Images/7.jpeg" },
+    { "name": "Dr. Ella Thompson", "image": "./Images/8.jpeg" },
+    { "name": "Dr. Grace Johnson", "image": "./Images/9.jpeg" },
+    { "name": "Dr. Sophie Brown", "image": "./Images/10.jpeg" },
+    { "name": "Dr. Emma Martin", "image": "./Images/11.jpeg" },
+    { "name": "Dr. Michael Johnson", "image": "./Images/12.jpeg" },
+    { "name": "Dr. Lauren Wilson", "image": "./Images/13.jpeg" },
+    { "name": "Dr. Rebecca Wilson", "image": "./Images/14.jpeg" },
+    { "name": "Dr. Robert Brown", "image": "./Images/15.jpeg" },
+    { "name": "Dr. James Martin", "image": "./Images/16.jpeg" },
+    { "name": "Dr. David Wilson", "image": "./Images/17.avif" },
+    { "name": "Dr. Richard Lee", "image": "./Images/18.avif" },
+    { "name": "Dr. Charles Thompson", "image": "./Images/19.avif" },
+    { "name": "Dr. Isabella Martin", "image": "./Images/20.avif" },
+    { "name": "Dr. Daniel Johnson", "image": "./Images/21.avif" },
+    { "name": "Dr. Olivia Johnson", "image": "./Images/22.avif" },
+    { "name": "Dr. Joseph Martin", "image": "./Images/23.avif" },
+     { "name": "Dr. Andrew Wilson", "image": "./Images/24.avif" },
+    { "name": "Dr. Ella Brown", "image": "./Images/25.avif" }
+]
+   
+

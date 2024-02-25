@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Select Doctor</h3>
+    <ul id="imageList"></ul>
+
+    <script>
+        fetch('./index.json')
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data.length; i++) {
+                    let li = document.createElement('li');
+                    let card = document.createElement('div');
+                    card.classList.add('card');
+                    let img = document.createElement('img');
+                    img.src = data[i].image;
+                    img.alt = data[i].name; // Fix: Use data[i].name for alt text
+
+                    let name = document.createElement('span');
+                    name.classList.add('card-text');
+                    name.innerText = data[i].name;
+
+                    card.appendChild(img);
+                    card.appendChild(name);
+
+                    li.appendChild(card);
+                    document.getElementById('imageList').appendChild(li);
+                }
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+
+</html>
